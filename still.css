@@ -1,0 +1,30 @@
+body{
+    width: 1080px;
+    height: 2400px;
+    margin: auto;
+    background-color: gray;
+    border: 3px solid red;
+}
+#prva{
+    border: 2px solid black;
+    position: relative;
+}
+.uvod{
+    font-family: Naslovna;
+    text-align: center;
+    font-size: 2cm;
+    color: rgb(61, 227, 61);
+}
+
+#tur{
+    margin-top: 26%	;
+
+}
+
+#pocni{
+    margin-left: 30%;
+    padding: 2%;
+    font-family: Naslovna;
+    border: 5px solid black;
+    border-radius: 15px;
+}
