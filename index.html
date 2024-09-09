@@ -8,16 +8,53 @@
     <meta name="keywords" content="keywords" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>TurnamenatKontrolCentar</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/vndmicrosofticon" >
+    <link rel="shortcut icon" href="" type="image/vndmicrosofticon" >
     <link rel="stylesheet" href="still.css" type="text/css" />
     <link rel="stylesheet" href="fonts.css" type="text/css" />
   </head>
   <body>
-      <div id="prva">
+    <!-- *************************Uvod u turnir********** -->
+      <article id="prva">
         <p class="uvod" id="tur">turnir</p>
         <p class="uvod">Kontrolni</p>
         <p class="uvod">Centar</p>
         <button id="pocni">Zapocni novi turnir</button>
-      </div>
+      </article>
+
+<!-- **************************Osnovne postavke pre pocetka*************** -->
+      <article id="postavke">
+        <p id="pocinje" class="pstvke">Postavke Turnira</p>
+        <!-- umotavam u <div> sa fiksnom sirinim da bi radio margin:auto -->
+        <div id="umot"> 
+          <div class="igr1">
+            <label for="bigr" id="bitekst">Izaberi koliko ce biti igraca:</label>
+            <select name="igrac" id="bigr">
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+          </div>
+          <div id="igr1">
+            <label for="partija" id="bitekst">Koliko partija ce se igrati:</label>
+            <select name="partija" id="bprt">
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <button type="submit" id="potvrdi">potvrdi</button>
+        </div><!-- kraj umotavanja u <div></div> -->
+
+      </article>
+
+      <article id="iIgraca"></article>
   </body>
+  <script src="logika.js"></script>
 </html>

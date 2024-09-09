@@ -2,3 +2,18 @@
     font-family: Naslovna;
     src: url(fonts/OverThere.ttf);
   }
+
+  @font-face {
+    font-family: Turnir1b;
+    src: url(fonts/AlteHaasGroteskBold.ttf);
+  }
+
+  @font-face {
+    font-family: Turnir1r;
+    src: url(fonts/AlteHaasGroteskRegular.ttf);
+  }
+
+  @font-face {
+    font-family: IgracNaslov;
+    src: url(fonts/Deutschlander-O5we.ttf);
+  }
